@@ -70,17 +70,21 @@ API → Python Extraction → Pandas Transformation → Spark Processing → SQL
 
 ## 📷 Screenshots
 
-### API Extraction
+### 📥 API Extraction
 
 ![API Output](screenshots/api_output.png)
 
-### Pandas Transformation
+---
+
+### 🔄 Pandas Transformation
 
 ![Pandas Summary](screenshots/pandas_summary.png)
 
 ![Pandas Table](screenshots/pandas_table.png)
 
-### Spark Processing
+---
+
+### ⚡ Spark Processing
 
 ![Spark Output 1](screenshots/spark_output_1.png)
 
@@ -90,7 +94,9 @@ API → Python Extraction → Pandas Transformation → Spark Processing → SQL
 
 ![Spark Output 4](screenshots/spark_output_4.png)
 
-### SQL Analysis
+---
+
+### 📊 SQL Analysis
 
 ![SQL Output 1](screenshots/sql_output_1.png)
 
