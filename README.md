@@ -69,7 +69,39 @@ API → Python Extraction → Pandas Transformation → Spark Processing → SQL
 ---
 
 ## 📷 Screenshots
-(Add screenshots of outputs here later)
+
+### API Extraction
+
+![API Output](screenshots/api_output.png)
+
+### Pandas Transformation
+
+![Pandas Summary](screenshots/pandas_summary.png)
+
+![Pandas Table](screenshots/pandas_table.png)
+
+### Spark Processing
+
+![Spark Output 1](screenshots/spark_output_1.png)
+
+![Spark Output 2](screenshots/spark_output_2.png)
+
+![Spark Output 3](screenshots/spark_output_3.png)
+
+![Spark Output 4](screenshots/spark_output_4.png)
+
+### SQL Analysis
+
+![SQL Output 1](screenshots/sql_output_1.png)
+
+![SQL Output 2](screenshots/sql_output_2.png)
+
+![SQL Output 3](screenshots/sql_output_3.png)
+
+![SQL Output 4](screenshots/sql_output_4.png)
+
+![SQL Output 5](screenshots/sql_output_5.png)
+
 
 ---
 
