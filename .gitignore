@@ -1,16 +1,27 @@
-# Python cache files
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
 
 # Logs
 *.log
 
-# Environment files
+# Environment
 .env
+venv/
+env/
+.venv/
 
-# Jupyter Notebook checkpoints
+# Jupyter Notebook
 .ipynb_checkpoints/
 
 # OS files
 .DS_Store
-Thumbs.dbc
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+tempCodeRunnerFile.py
