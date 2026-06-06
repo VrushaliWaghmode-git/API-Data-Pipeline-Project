@@ -8,6 +8,18 @@ The pipeline extracts data from a public API, transforms it, processes it using 
 
 ---
 
+## ❗ Problem Statement
+
+In real-world applications, data is often available in raw JSON format from APIs. This data is unstructured and cannot be directly used for analysis.
+
+This project solves this by building an ETL pipeline that:
+- Extracts raw data from a public API
+- Transforms and cleans the data
+- Processes it using Apache Spark
+- Performs SQL-based analysis to generate insights
+
+---
+
 ## 🏗️ Architecture
 
 API → Python Extraction → Pandas Transformation → Spark Processing → SQL Analysis → Insights
@@ -60,8 +72,26 @@ API → Python Extraction → Pandas Transformation → Spark Processing → SQL
 - Performed aggregations and filtering
 - Extracted insights from user dataset
 
-📄 File: user_data_sql_analysis.py
+📄 File: `user_data_sql_analysis.py`
 
+---
+
+### Top cities with most users
+
+```sql
+SELECT city, COUNT(*) AS user_count
+FROM users
+GROUP BY city
+ORDER BY user_count DESC;
+```
+### Filter users by company
+
+```sql
+SELECT *
+FROM users
+WHERE company IS NOT NULL
+AND company LIKE '%Group%';
+```
 ---
 
 ## 📌 Key Skills Demonstrated
@@ -72,7 +102,6 @@ API → Python Extraction → Pandas Transformation → Spark Processing → SQL
 - SQL analytics
 - End-to-end ETL pipeline design
 - GitHub project management
-
 ---
 
 ## 📷 Screenshots
